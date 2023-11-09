@@ -30,23 +30,24 @@ const Hero = ({
     <div
       className="mt-24 px-8 xl:px-16"
       id="about"
-      style={{ backgroundImage: 'url("assets/hero.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
+      style={{ backgroundImage: 'url("assets/hero2.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
     >
       <ScrollAnimationWrapper>
           <motion.div
-            className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
+            className="grid grid-flow-row sm:grid-flow-col md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16 "
             variants={scrollAnimation}>
             <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1" >
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
                 Discover Authentic Japanese Crafts
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-s              Our company imports the finest Japanese goods and crafts, bring the best of Japan to Malaysia. Trust us to elevate your business with our expertise and quality products.
-              </p>
+  Our company imports the finest Japanese goods and crafts, bring the best of Japan to Malaysia. Trust us to elevate your business with our expertise and quality products.
+</p>
+
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>
-            <div className="flex w-full">
-              <motion.div className="h-full w-full" variants={scrollAnimation}>
+            <div className="flex w-3/6 h-3/6">
+            <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
                   src="assets/Logo.webp"
                   alt="VPN Illustrasi"

@@ -47,7 +47,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="/assets/Free.png"
+                    src="assets/Free.png"
                     width={145}
                     height={165}
                     alt="Free Plan"
@@ -91,7 +91,7 @@ const Pricing = () => {
               >
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
-                  src="/assets/Standard.png"
+                  src="assets/Standard.png"
                   width={145}
                   height={165}
                   alt="Standard Plan"
@@ -138,7 +138,7 @@ const Pricing = () => {
               >
               <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                 <Image
-                  src="/assets/Premium.png"
+                  src="assets/Premium.png"
                   width={145}
                   height={165}
                   alt="Premium Plan"
@@ -199,27 +199,27 @@ const Pricing = () => {
             <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
               {/* <Netflix className="h-18 w-auto" /> */}
               <img
-                src="/assets/Icon/amazon.png"
+                src="assets/Icon/amazon.png"
                 className="h-14 w-auto mt-4 lg:mt-2"
                 alt=""
               />
               <img
-                src="/assets/Icon/netflix.png"
+                src="assets/Icon/netflix.png"
                 className="h-14 w-auto mt-2 lg:mt-0"
                 alt=""
               />
               <img
-                src="/assets/Icon/reddit.png"
+                src="assets/Icon/reddit.png"
                 className="h-12 w-auto mt-2 lg:mt-0"
                 alt=""
               />
               <img
-                src="/assets/Icon/discord.png"
+                src="assets/Icon/discord.png"
                 className="h-14 w-auto mt-2 lg:mt-0"
                 alt=""
               />
               <img
-                src="/assets/Icon/spotify.png"
+                src="assets/Icon/spotify.png"
                 className="h-12 w-auto mt-2 lg:mt-0"
                 alt=""
               />
