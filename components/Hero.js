@@ -38,15 +38,14 @@ const Hero = ({
   variants={scrollAnimation}
 >
 
-  <div className="flex w-full h-3/6 items-center justify-center sm:justify-start text-center max-w-[400px] mx-auto">
-    <motion.div className="h-full w-full" variants={scrollAnimation}>
+  <div className="flex w-3/6 sm:w-2/6 xl:w-1/6 h-3/6 items-center justify-center sm:justify-start text-center mx-auto">
+    <motion.div className="w-full h-full" variants={scrollAnimation}>
       <Image
-        src="assets/Logo.webp"
+        src="/assets/Logo.webp"
         alt="VPN Illustration"
         quality={100}
         width={748}
         height={334}
-        style={{ maxWidth: '400px' }}
         layout="responsive"
       />
     </motion.div>
