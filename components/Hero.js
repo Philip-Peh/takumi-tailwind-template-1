@@ -46,6 +46,7 @@ const Hero = ({
         quality={100}
         width={748}
         height={334}
+        style={{ maxWidth: '400px' }}
         layout="responsive"
       />
     </motion.div>
