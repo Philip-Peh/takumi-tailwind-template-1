@@ -33,33 +33,39 @@ const Hero = ({
       style={{ backgroundImage: 'url("assets/hero2.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
     >
       <ScrollAnimationWrapper>
-          <motion.div
-            className="grid grid-flow-row sm:grid-flow-col md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16 "
-            variants={scrollAnimation}>
-            <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1" >
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Discover Authentic Japanese Crafts
-              </h1>
-              <p className="text-black-500 mt-4 mb-6">
-  Our company imports the finest Japanese goods and crafts, bring the best of Japan to Malaysia. Trust us to elevate your business with our expertise and quality products.
-</p>
+      <motion.div
+  className="grid gap-8 py-6 sm:py-16"
+  variants={scrollAnimation}
+>
 
-              <ButtonPrimary>Get Started</ButtonPrimary>
-            </div>
-            <div className="flex w-3/6 h-3/6">
-            <motion.div className="h-full w-full" variants={scrollAnimation}>
-                <Image
-                  src="assets/Logo.webp"
-                  alt="VPN Illustrasi"
-                  quality={100}
-                  width={748}
-                  height={334}
-                  layout="responsive"
-                />
-              </motion.div>
-            </div>
-          </motion.div>
-      </ScrollAnimationWrapper>
+  <div className="flex w-full h-3/6 items-center justify-center sm:justify-start text-center">
+    <motion.div className="h-full w-full max-w-[400px] mx-auto" variants={scrollAnimation}>
+      <Image
+        src="assets/Logo.webp"
+        alt="VPN Illustration"
+        quality={100}
+        width={748}
+        height={334}
+        layout="responsive"
+      />
+    </motion.div>
+  </div>
+  
+  <div className="flex flex-col justify-center items-center text-center bg-black-500 bg-opacity-75 max-w-[1024px] mx-auto p-8">
+    <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal">
+      Discover Authentic Japanese Crafts
+    </h1>
+    <p className="text-white-500 mt-4 mb-6 ">
+      Our company imports the finest Japanese goods and crafts, bringing the best of Japan to Malaysia. Trust us to elevate your business with our expertise and quality products.
+    </p>
+  </div>
+
+  <div className="flex flex-col justify-center items-center text-center mx-auto">
+    <ButtonPrimary>Check it Out!</ButtonPrimary>
+  </div>
+
+</motion.div>
+</ScrollAnimationWrapper>
       <div className="relative w-full flex">
        <div
           className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
