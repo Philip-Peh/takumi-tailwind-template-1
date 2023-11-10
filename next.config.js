@@ -1,4 +1,3 @@
 module.exports = {
-    basePath: '/takumi-tailwind-template-1',
-    assetPrefix: '/takumi-tailwind-template-1/',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/takumi-tailwind-template-1' : '/',
 }
