@@ -30,7 +30,7 @@ const Hero = ({
     <div
       className="mt-24 px-8 xl:px-16"
       id="about"
-      style={{ backgroundImage: 'url("assets/hero2.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
+      style={{ backgroundImage: 'url("assets/hero.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
     >
       <ScrollAnimationWrapper>
       <motion.div
@@ -52,12 +52,12 @@ const Hero = ({
   </div>
   
   <div className="flex flex-col justify-center items-center text-center bg-black-500 bg-opacity-75 max-w-[1024px] mx-auto p-8">
-    <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal">
+    <h1 className="sm:text-2xl lg:text-4xl xl:text-5xl font-medium text-white-500 leading-normal">
       Discover Authentic Japanese Crafts
     </h1>
-    <p className="text-white-500 mt-4 mb-6 ">
-      Our company imports the finest Japanese goods and crafts, bringing the best of Japan to Malaysia. Trust us to elevate your business with our expertise and quality products.
-    </p>
+    <p className="text-white-500 mt-4 mb-6 text-sm sm:text-base">
+    Our company imports the finest Japanese goods and crafts, bringing the best of Japan to Malaysia. Trust us to elevate your business with our expertise and quality products.
+  </p>
   </div>
 
   <div className="flex flex-col justify-center items-center text-center mx-auto">

@@ -7,11 +7,11 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='LaslesVPN Landing Page' />
+      <SeoHead title='Takumi International Sdn Bhd' />
       <Layout>
         <Hero />
-        <Feature />
         <Pricing />
+        <Feature />
       </Layout>
     </>
   );
