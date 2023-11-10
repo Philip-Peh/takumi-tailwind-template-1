@@ -46,7 +46,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="assets/from-japan-icon.png"
+                    src="/assets/from-japan-icon.png"
                     width={50}
                     height={50}
                     alt="food icon"
@@ -75,7 +75,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="assets/download.png"
+                    src="/assets/download.png"
                     width={50}
                     height={50}
                     alt="food icon"
@@ -104,7 +104,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="assets/food-icon.png"
+                    src="/assets/food-icon.png"
                     width={50}
                     height={50}
                     alt="food icon"

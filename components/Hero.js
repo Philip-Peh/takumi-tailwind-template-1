@@ -10,17 +10,17 @@ const Hero = ({
     {
       name: "Users",
       number: "390",
-      icon: "assets/Icon/heroicons_sm-user.svg",
+      icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
       number: "20",
-      icon: "assets/Icon/gridicons_location.svg",
+      icon: "/assets/Icon/gridicons_location.svg",
     },
     {
       name: "Server",
       number: "50",
-      icon: "assets/Icon/bx_bxs-server.svg",
+      icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
 }) => {
@@ -30,7 +30,7 @@ const Hero = ({
     <div
       className="mt-24 px-8 xl:px-16"
       id="about"
-      style={{ backgroundImage: 'url("assets/hero.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
+      style={{ backgroundImage: 'url("/assets/hero.webp")', backgroundSize: 'cover', backgroundPosition: 'top' }}
     >
       <ScrollAnimationWrapper>
       <motion.div
@@ -41,7 +41,7 @@ const Hero = ({
   <div className="flex w-3/6 sm:w-2/6 xl:w-1/6 h-3/6 items-center justify-center sm:justify-start text-center mx-auto">
     <motion.div className="w-full h-full" variants={scrollAnimation}>
       <Image
-        src="assets/Logo.webp"
+        src="/assets/Logo.webp"
         alt="VPN Illustration"
         quality={100}
         width={748}

@@ -25,7 +25,7 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="assets/malaysia-japan-flag.webp"
+              src="/assets/malaysia-japan-flag.webp"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
