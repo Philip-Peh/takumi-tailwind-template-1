@@ -63,6 +63,7 @@ jobs:
           static_site_generator: next
       - name: Set NODE_ENV to production
         run: |
+          # echo "NODE_ENV=production" >> $GITHUB_ENV
           echo "Contents of GITHUB_ENV:"
           cat $GITHUB_ENV
       - name: Restore cache
